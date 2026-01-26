@@ -1,5 +1,5 @@
 use super::*;
-use soroban_sdk::{testutils::Address as _, token, vec, Address, Env};
+use soroban_sdk::{Address, Env, testutils::Address as _, token, vec};
 
 fn create_token_contract<'a>(
     env: &Env,
@@ -104,7 +104,13 @@ fn test_buyer_confirm_delivery() {
         },
     ];
 
-    client.create_escrow(&escrow_id, &buyer, &seller, &milestones, &token_client.address);
+    client.create_escrow(
+        &escrow_id,
+        &buyer,
+        &seller,
+        &milestones,
+        &token_client.address,
+    );
 
     // Buyer confirms delivery and releases first milestone
     client.confirm_delivery(&escrow_id, &0, &buyer);
