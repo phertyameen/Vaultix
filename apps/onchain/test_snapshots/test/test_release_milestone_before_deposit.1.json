@@ -35,7 +35,7 @@
               "function_name": "create_escrow",
               "args": [
                 {
-                  "u64": "14"
+                  "u64": "16"
                 },
                 {
                   "address": "CAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAFCT4"
@@ -55,7 +55,7 @@
                             "symbol": "amount"
                           },
                           "val": {
-                            "i128": "3000"
+                            "i128": "5000"
                           }
                         },
                         {
@@ -63,39 +63,7 @@
                             "symbol": "description"
                           },
                           "val": {
-                            "symbol": "Phase1"
-                          }
-                        },
-                        {
-                          "key": {
-                            "symbol": "status"
-                          },
-                          "val": {
-                            "vec": [
-                              {
-                                "symbol": "Pending"
-                              }
-                            ]
-                          }
-                        }
-                      ]
-                    },
-                    {
-                      "map": [
-                        {
-                          "key": {
-                            "symbol": "amount"
-                          },
-                          "val": {
-                            "i128": "7000"
-                          }
-                        },
-                        {
-                          "key": {
-                            "symbol": "description"
-                          },
-                          "val": {
-                            "symbol": "Phase2"
+                            "symbol": "Task"
                           }
                         },
                         {
@@ -190,7 +158,7 @@
                     "symbol": "escrow"
                   },
                   {
-                    "u64": "14"
+                    "u64": "16"
                   }
                 ]
               },
@@ -226,7 +194,7 @@
                                 "symbol": "amount"
                               },
                               "val": {
-                                "i128": "3000"
+                                "i128": "5000"
                               }
                             },
                             {
@@ -234,39 +202,7 @@
                                 "symbol": "description"
                               },
                               "val": {
-                                "symbol": "Phase1"
-                              }
-                            },
-                            {
-                              "key": {
-                                "symbol": "status"
-                              },
-                              "val": {
-                                "vec": [
-                                  {
-                                    "symbol": "Pending"
-                                  }
-                                ]
-                              }
-                            }
-                          ]
-                        },
-                        {
-                          "map": [
-                            {
-                              "key": {
-                                "symbol": "amount"
-                              },
-                              "val": {
-                                "i128": "7000"
-                              }
-                            },
-                            {
-                              "key": {
-                                "symbol": "description"
-                              },
-                              "val": {
-                                "symbol": "Phase2"
+                                "symbol": "Task"
                               }
                             },
                             {
@@ -319,7 +255,7 @@
                       "symbol": "total_amount"
                     },
                     "val": {
-                      "i128": "10000"
+                      "i128": "5000"
                     }
                   },
                   {
